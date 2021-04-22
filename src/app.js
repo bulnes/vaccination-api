@@ -1,7 +1,7 @@
 const express = require('express');
 const fetch = require('node-fetch');
 const cors = require('cors');
-const config = require('./config');
+const config = require('../config');
 const convertData = require('./helpers/convert-data');
 
 const app = express();
