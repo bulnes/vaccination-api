@@ -7,9 +7,7 @@ const configs = {
     api_src: 'https://vacinacao-covid19.com/data/bra.json',
   },
   development: {},
-  production: {
-    app_port: 3335,
-  },
+  production: {},
 };
 
 module.exports = {
